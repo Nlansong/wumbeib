@@ -1,7 +1,7 @@
 <header class="bg-white w-full" >
     <nav class="flex flex-cols-2 justify-between text-gray-500 border-2 rounded-lg " >
         <div class="mx-6 my-4">
-           <a href="#">
+           <a href="{% url 'home:home' %}">
             <h1 class="px-4 py-2 text-2xl text-stone-900 hover:bg-teal-800 hover:text-cyan-50 hover:rounded-lg" >Bright Wumbei</h1>
            </a>
         </div>
@@ -11,7 +11,7 @@
                     <a href="#">Portfolio</a>
                 </li>
                 <li class="list-none py-6 px-2 hover:text-3xl" >
-                    <a href="#">About Me</a>
+                    <a href="{% url 'home:about' %}">About Me</a>
                 </li>
                 <li class="list-none py-6 px-2 hover:text-3xl">
                     <a href="#">Contact Me</a>
